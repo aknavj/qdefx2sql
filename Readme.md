@@ -4,7 +4,14 @@ This project is no longer maintained and serves only as a time capsule. This sim
 
 The purpose of the utility is to parse and process *.QDEFX files (the internal format of IS MUNI for online test answer sheets) and to generate a basic SQL structure for test questions, answers, and their relationships for the TestQuestion framework Python microservice within the educational CMS backend system.
 
-Run Example:
+## Dependencies:
+
+**xmltodict**
+```
+pip install xmltodict
+```
+
+## Run Example:
 
 ```bash
 python main.py -db cms -f vse.qdefx
