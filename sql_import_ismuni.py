@@ -3,7 +3,7 @@ import xmltodict
 
 # This class will parse IS MUNI odpovednik format *.qdefx
 # and create SQL query to IMPORT data into Table
-class sql_import_is_muni(sql_import):
+class sql_import_ismuni(sql_import):
 
     delimiters = [',', ';']
 
